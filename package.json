@@ -1,10 +1,12 @@
 {
-  "name": "node-blog",
+  "repository": "https://github.com/OpenSquad/OpenSquad-Website",
+  "name": "OpenSquad-Website",
   "version": "1.0.0",
   "description": "A nodejs based web blog.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "blog",

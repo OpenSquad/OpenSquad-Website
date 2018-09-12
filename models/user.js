@@ -8,8 +8,6 @@ class User{
 	get firstname(){return this.row.firstname;}
 	get lastname(){return this.row.lastname;}
 validPassword(password){
-	console.log('Password donné : '+password);
-	console.log('Password de l\'user :'+this.row.password);
 	return password===this.row.password;
 }
 static subscribe(content, callback){
